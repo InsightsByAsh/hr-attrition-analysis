@@ -30,4 +30,5 @@ I performed complex data extraction using SQL (DBeaver) to derive actionable att
 
 ## 📁 Repository Structure
 * `index.html` - Complete frontend architecture, analytical engine, and UI layout.
+  `employee_attrition_sql.png` - Visual proof of the SQL backend logic and CTE implementation.
 * `README.md` - Project documentation and executive summary.
