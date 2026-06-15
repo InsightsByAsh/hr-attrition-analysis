@@ -1,48 +1,33 @@
-# 👥 HR Employee Attrition Analysis
-### Tools: MySQL | Dataset: IBM HR Analytics
+# 🌐 HR Workforce Optimization & Attrition Portal
 
-## Business Problem
-A company was struggling with high employee turnover but had no 
-data-driven understanding of why employees were leaving. The goal 
-was to analyze 1,470 employee records to identify attrition patterns 
-and provide actionable HR strategies.
+A fully interactive, high-end web-based analytics application built to analyze employee turnover, identify burnout triggers, and provide actionable talent retention strategies.
 
-## Tools Used
-- MySQL — Data analysis and querying
+🚀 **Live Interactive Dashboard:** [Click Here to View Live Portal](https://insightsbyash.github.io/hr-attrition-analysis/)
 
-## Key Findings
-- Overall attrition rate: 16.12% (above industry benchmark of 15%)
-- Sales department highest attrition: 20.63%
-- Overtime employees churn 3x more: 30.53% vs 10.44%
-- Under 25 age group most at risk: 39.18% attrition
-- Employees who left earned $2,045 less than those who stayed
-- Very dissatisfied employees churn 2x more than satisfied ones
 
-## Analysis Performed
-- Overall attrition rate calculation
-- Attrition by department
-- Salary and experience impact on attrition
-- Overtime and work-life balance analysis
-- Job satisfaction vs attrition correlation
-- Age group attrition patterns
-- High risk employee identification
-- Department wise complete summary using CTE
+## 🗄️ SQL Data Transformation
+I performed complex data extraction using SQL (DBeaver) to derive actionable attrition metrics.
+* **Techniques Used:** CTEs (Common Table Expressions) and Conditional Aggregation.
+* **Key Metric:** Calculated department-wise attrition rates and analyzed income correlation with turnover.
+![SQL Logic](employee_attrition_sql.png)
 
-## Key Insights
-1. Sales department attrition 20.63% needs immediate action
-2. Overtime employees leave at 30.53% vs 10.44% for non-overtime
-3. Under 25 employees at 39.18% attrition — highest risk group
-4. Low salary ($4,787 avg) strongly correlates with attrition
-5. Very dissatisfied employees churn at 22.84% vs 11.33% for satisfied
+---
 
-## Business Recommendations
-- Implement salary revision for Sales department employees
-- Introduce overtime limits and flexible work policies
-- Launch mentorship and career growth program for under 25 employees
-- Conduct regular employee satisfaction surveys
-- Create retention bonuses for high risk employees
+## 📊 Executive Business Insights
+* **High Attrition Alert:** The organization faces an overall attrition rate of **16.12%**, with the **Sales Department** demonstrating the highest turnover risk across core business units.
+* **Overtime Burnout Correlation:** A significant correlation is tracked between extended **Overtime hours** and employee departures, signaling a critical need for workload optimization.
+* **Demographic Risk Management:** The **Under-25 age group** and single employees exhibit the highest propensity to leave, highlighting an urgent need for targeted early-career retention strategies.
 
-## Dataset
-- Source: Kaggle IBM HR Analytics Dataset
-- Total Records: 1,470 employees
-- Features: 35 columns including demographics, salary and satisfaction scores
+---
+
+## 🛠️ Tech Stack & Features
+* **Core Architecture:** HTML5, Modern CSS3 (App-like UI with Sidebar Navigation & Floating Cards).
+* **Data Visualization:** Interactive Chart.js engine providing real-time, multi-dimensional filtering.
+* **Deployment:** Publicly accessible via GitHub Pages for seamless executive and recruiter review.
+* **Interactive Filtering:** Perform granular analysis across **Gender**, **Business Travel Frequencies**, and **Key Job Roles** without page reloads.
+
+---
+
+## 📁 Repository Structure
+* `index.html` - Complete frontend architecture, analytical engine, and UI layout.
+* `README.md` - Project documentation and executive summary.
